@@ -89,3 +89,19 @@ def conditionals()
 
 end
 
+
+def iterator()
+    fruits = ["mango","banana","pineapple","apple"]
+    
+    fruits.each do |f|
+        print "#{f} "
+    end   
+    puts 
+    for x in fruits
+        print "#{x.upcase} "
+    end    
+
+
+end     
+
+iterator()
