@@ -56,4 +56,18 @@ def symbols()
     puts "#{d.keys.first.class}" # Symbol
 end
 
-symbols()
+
+
+def range()
+    puts "#{('a'..'z')}"
+    puts "#{[*('a'..'z')]}"
+    puts "#{(1..10).class}"
+    puts "#{[*(1..10)].class}"
+    puts "#{}"
+end 
+
+range()
+
+
+
+
