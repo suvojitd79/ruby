@@ -39,13 +39,21 @@ def hash()
     }
     d["name"] = "haha90"
     d["email"] = "suii@hj.op"
-    puts d.key?("name")
+    puts d.has_key?("name")
+    puts d.has_value?("name")
     puts "#{d.keys()}"
     puts "#{d.values()}"
     puts "#{d.to_a}"           
 end
 
 
+def symbols()
+    d = {
+        x:10,
+        y:20,
+        z:20
+    }
+    puts "#{d.keys.first.class}" # Symbol
+end
 
-
-
+symbols()
