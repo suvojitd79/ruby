@@ -66,17 +66,26 @@ def range()
     puts "#{}"
 end 
 
-
+Temp=123
 
 def const()
-    MAX_VALUE = 123
-    puts "#{MAX_VALUE}"
-    MAX_VALUE = 12
-    puts "#{MAX_VALUE}"
+    puts "#{Temp}"
+end
 
+########################################################
 
-range()
+def conditionals()
+    x = 3
+    case x
+    when 0
+        puts "0"
+    when 1
+        puts "1"    
+    else
+        puts "exception"    
+    end 
+    
+    puts "hello" if x == 3
 
-
-
+end
 
