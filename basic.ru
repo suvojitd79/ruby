@@ -9,3 +9,13 @@ class User
     end    
 end 
 
+def str()
+    puts "#{"my name is awesome!".upcase().reverse()}"
+    puts "#{"my name is AWESOME!".downcase()}"
+    puts "#{"sample".size()}"
+    puts "#{"1".to_f}"
+end 
+
+
+
+
