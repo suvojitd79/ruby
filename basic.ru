@@ -17,5 +17,26 @@ def str()
 end 
 
 
+def arr(x=[],y=[])
+    puts "#{x+y}"
+    puts "#{x-y}"
+    puts "#{x.push([1,2,"suvojit"])}"
+    puts "#{x.flatten()}" # returns copy 
+    puts "#{x.include?("suvojit")}"
+    puts "#{x.flatten!()}" # inplace operation 
+    puts "#{x.include?("suvojit")}"
+    puts "#{y.sort!{|a,b| (b <=> a)}}" #descending
+    puts "#{2 <=> 3}" #-1
+    puts "#{2 <=> 2}" # 0 
+    puts "#{2 <=> 1}" # 1
+    
+end
+
+
+
+arr([1,2,3],[1,20])
+
+
+
 
 
