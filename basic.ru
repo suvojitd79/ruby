@@ -33,8 +33,17 @@ def arr(x=[],y=[])
 end
 
 
-
-arr([1,2,3],[1,20])
+def hash()
+    d = {
+        "key"=>"898989"
+    }
+    d["name"] = "haha90"
+    d["email"] = "suii@hj.op"
+    puts d.key?("name")
+    puts "#{d.keys()}"
+    puts "#{d.values()}"
+    puts "#{d.to_a}"           
+end
 
 
 
