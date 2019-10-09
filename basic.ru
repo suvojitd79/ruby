@@ -66,6 +66,15 @@ def range()
     puts "#{}"
 end 
 
+
+
+def const()
+    MAX_VALUE = 123
+    puts "#{MAX_VALUE}"
+    MAX_VALUE = 12
+    puts "#{MAX_VALUE}"
+
+
 range()
 
 
